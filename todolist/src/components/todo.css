@@ -1,0 +1,35 @@
+.home{
+    background-image: linear-gradient(to bottom right, rgb(175, 61, 175), rgb(44, 2, 46));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-screen{
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    width: 50%;
+    height: 50vh;
+    overflow-wrap: break-word;
+    margin:5px;
+    padding:5px;
+    overflow: auto;
+    text-align:justify;
+}
+#task-details{
+    margin: 25px;
+    padding: 15px 15px 15px 15px;
+    border: none;
+    border-radius: 7px;
+    overflow-wrap: break-word;
+    height: 20%;
+    
+}
+#submit-button{
+    padding: 15px 15px 15px 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(209, 65, 223);
+    cursor: pointer;
+    color: rgb(248, 242, 242);
+}
